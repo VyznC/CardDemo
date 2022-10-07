@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* main{
+    background-image: linear-gradient(to bottom right, purple,pink,blue,purple);
+    height: 100vh;
+    width: 30%;
+    
+} */
+
+.left {
+    background-image: linear-gradient(to bottom right, purple 10%, rgb(219, 62, 172), rgb(11, 147, 232), rgb(123, 25, 123) 70%);
+    height: 100vh;
+    width: 30%;
+
+}
+
+.right {
+    /* background-color: rgb(255, 2, 2); */
+    width: 400px;
+    position: absolute;
+    left: 800px;
+    top: 180px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info {
+    width: 345px;
+    padding: 6px 6px 6px 10px;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(120, 117, 117);
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.expire {
+    width: 70px;
+    padding: 6px 6px 6px 10px;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+span {
+    margin-left: 60px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+#cvc {
+    margin-left: 18px;
+    padding: 6px 6px 6px 10px;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 118, 118);
+    width: 80;
+    margin-bottom: 15px;
+}
+
+button {
+    text-transform: capitalize;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 80;
+
+}
+
+button {
+    width: 345px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 118, 118);
+    background-color: rgb(36, 2, 68);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(68, 0, 132);
+}
+
+#no {
+    width: 25%;
+    position: absolute;
+    top: 100px;
+    left: 15%;
+}
+
+#yes {
+    width: 25%;
+    position: absolute;
+    top: 340px;
+    left: 22%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.cnum {
+    position: absolute;
+    top: 200px;
+    left: 16.8%;
+    font-size: 31px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cname{
+    position: absolute;
+    top: 258px;
+    left: 16.8%;
+    font-size: 15px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.ccvc{
+    position: absolute;
+    top: 428px;
+    left: 42%;
+    font-size: 15px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.cmm{
+    position: absolute;
+    top: 258px;
+    left: 34.8%;
+    font-size: 15px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.cspace{
+    position: absolute;
+    top: 258px;
+    left: 36.1%;
+    font-size: 15px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.cyy{
+    position: absolute;
+    top: 258px;
+    left: 36.7%;
+    font-size: 15px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
